@@ -1,0 +1,12 @@
+.Guess-container{
+    border:solid black thin;
+    border-radius: 4px;
+    margin-bottom:2px;
+    padding:2px;
+    background-color:rgba(53, 53, 58, 0.767);
+    color: #03dac6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}

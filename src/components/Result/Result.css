@@ -1,0 +1,6 @@
+.Result-container{
+    display:flex;
+    justify-content: center;
+    font-size: large;
+    color:#03dac5;
+}
