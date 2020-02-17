@@ -1,6 +1,6 @@
 import React from 'react';
 import AddNumber from './AddNumber/AddNumber.js';
-import Result from './result/Result.js';
+import Result from './Result/Result.js';
 import Guesses from './Guesses/Guesses.js';
 import './App.css';
 
