@@ -1,11 +1,10 @@
-body, #root{
-    height: 100vh;
-    background-color: #0d1425e0;
+.mainContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #202124;
 }
 
-.mindtrap-container{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    padding: 9px;
+body {
+    background-color: #3c4042;
 }

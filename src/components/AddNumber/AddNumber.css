@@ -1,7 +1,41 @@
-.addNumber-container{
-    height: 6%;
+.AddNumber-Container{
+    padding-top:5%;
+    display: flex;
+    justify-content: center;
+    
 }
+
+.inputNumberCl{
+    border-radius: 10px;
+    text-align: right;
+    width: 50px;
+}
+
 
 .submitBtn{
     margin-left: 10px;
-}
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color:#fff;
+    text-decoration: none;
+    background-color: #3700b3;
+    padding:5px 2.5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 5px solid #3700b3;
+    
+  transition: all 0.15s ease 0s;
+  }
+  
+  .submitBtn:active{
+    position: relative;
+    top:3px;
+    left:2px;
+    box-shadow: 0px 0px;
+  }
+  
+  .submitBtn:hover{
+    box-shadow: 5px 4px 13px -11px rgba(3,218,197,0.71);
+    transition: all 0.15s ease 0s;
+  }
